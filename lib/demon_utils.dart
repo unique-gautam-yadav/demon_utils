@@ -18,3 +18,12 @@ class DemonWidget extends StatelessWidget {
     );
   }
 }
+
+class DemonText extends StatelessWidget {
+  const DemonText({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Text("Flutter Demon");
+  }
+}
